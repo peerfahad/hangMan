@@ -1,0 +1,33 @@
+.letter{
+    font-size: 1rem;
+    padding: .6rem 1.2rem;
+    background-color: green;
+    margin: .3rem .6rem;
+    border-radius: .5rem;
+    border: 1px solid white;
+    color: #fff;
+    filter: drop-shadow(0px 0px 2px#666);
+    font-weight: 400;
+}
+.Alert_container{
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    color: red;
+    text-align: center;
+    font-weight: 900;
+    border-radius: .5rem;
+}
+
+.restart{
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    border: 1px solid white;
+    filter: drop-shadow(0px 1px 2px #666);
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: .5px;
+    color: green;
+    background-color: $secundar-color;
+    transition: background-color .5s ease;
+
+}
