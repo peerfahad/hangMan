@@ -1,8 +1,8 @@
 <div class="row">
     <div class="col-xs-12">
         <img src="" alt="">
-         <h2 style="text-align: center;"><span class="message" style="text-align: center;">Attempts</span></h2>
-        <h2 style="text-align: center;"><span style="text-align: center;">{{usedAttempts}}/ {{attempts}}</span></h2>
+         <h2 style="text-align: center;"><span class="message">Attempts</span></h2>
+        <h2 style="text-align: center;"><span>{{usedAttempts}}/ {{attempts}}</span></h2>
         <div class="container" style="text-align: center;">
         <div class="word__container">
             <h1>{{hiddenWord}}</h1>
@@ -14,14 +14,14 @@
             </button>
         </div>
         
-        <div class="Alter_container win" style="color: green;" *ngIf="win">
+        <div class="win" style="color: green;" *ngIf="win">
             <span>{{message }}</span>
         </div>
-        <div class="Alert_container lose" *ngIf="lose">
+        <div class="lose" *ngIf="lose">
             <span>{{message}}</span>
           </div>
           <div class="buttons_container" *ngIf="win || lose">
-            <button type="submit" class="restart" (click)="restartGame()"><i class="fas fa-undo"></i>Restart</button>
+            <button type="submit" class="restart" (click)="restartGame()">Restart</button>
 
           </div>
 
